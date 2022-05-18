@@ -1,0 +1,13 @@
+{
+  "Name": "FungusAmongusQF",
+  "Author": "OkayShroomer",
+  "Version": "1.0.0",
+  "Description": "Creating a mushroom related mod for Stardew Valley.",
+  "UniqueID": "OkayShroomer.FungusAmongusQF",
+  "MinimumApiVersion": "3.6.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "PurrplingCat.QuestFramework",
+    "MinimumVersion": "1.2.0"
+  }
+}

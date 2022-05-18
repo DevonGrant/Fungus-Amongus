@@ -1,0 +1,41 @@
+{
+  "Changes": [
+    {
+      "LogName": "Child Manifestation",
+      "Action": "Include",
+      "FromFile": "assets/dispositions/child_disposition.json"
+    },
+    {
+      "LogName": "Child Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Child": "WOW!/684 74/Woah!/80/... ..../306 305 307 308/... ...wahhhh!!!/281 404 420 422 430 432 205 208 257 280/Fanks/564 -79 -80 "
+      }
+    },
+    {
+      "LogName": "Child Sprite",
+      "Action": "Load",
+      "Target": "Characters/Child",
+      "FromFile": "assets/spritesheets/child_spritesheet.png"
+    },
+    {
+      "LogName": "Child Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Child",
+      "FromFile": "assets/portraits/child_portrait.png"
+    },
+    {
+      "LogName": "Child Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Child",
+      "FromFile": "assets/schedules/child_schedule.json"
+    },
+    {
+      "LogName": "Child Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Child",
+      "FromFile": "assets/dialogue/child_dialogue.json"
+    }
+  ]
+}

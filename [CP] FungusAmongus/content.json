@@ -1,0 +1,40 @@
+{
+   "Format": "1.24.0",
+   "CustomLocations": [
+      {
+         "Name": "Custom_MushroomVillage",
+         "FromMapFile": "assets/MushroomVillage.tmx"
+      }
+   ],
+   "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Railroad",
+      "FromFile": "assets/Railroad_edit.tmx",
+      "ToArea": {
+        "X": 67,
+        "Y": 50,
+        "Width": 3,
+        "Height": 9
+      },
+      "AddWarps": [
+        "70 55 Custom_MushroomVillage 0 17",
+        "70 56 Custom_MushroomVillage 0 18",
+        "70 57 Custom_MushroomVillage 0 19",
+        "70 58 Custom_MushroomVillage 0 20"
+      ],
+      "When": {
+        "query: {{DaysPlayed}} > 2": true
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SpringObjects",
+      "FromFile": "assets/springobjects.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/chief_content.json, assets/generic_1_content.json, assets/generic_2_content.json, assets/generic_3_content.json, assets/generic_4_content.json, assets/child_content.json, assets/mother_content.json"
+    }
+   ]
+}

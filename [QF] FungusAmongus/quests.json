@@ -1,0 +1,114 @@
+{
+    "Format": "1.0",
+    "Quests": [
+        {
+            "Name": "forest_discovery",
+            "Type": "Location",
+            "Title": "Forest Discovery",
+            "Description": "Maru has asked you to check out the forest east of the bath house that was unblocked after the latest rainstorm.",
+            "Objective": "Walk into the mushroom forest east of the bath house",
+            "Trigger": "Custom_MushroomVillage",
+            "NextQuests": ["first_rebuild1"]
+        },
+        {
+            "Name": "first_rebuild1",
+            "Type": "ItemDelivery",
+            "Title": "First Villager Rebuild",
+            "Description": "One of the mushroom people needs some hardwood to help fix their house after the rainstorm.",
+            "Objective": "Bring the mushroom villager 30 hardwood",
+            "Trigger": "GenericMushroom_1 709 30",
+            "ReactionText": "Great! Now I just need some fiber",
+            "NextQuests": ["first_rebuild2"]
+        },
+        {
+            "Name": "first_rebuild2",
+            "Type": "ItemDelivery",
+            "Title": "First Villager Rebuild",
+            "Description": "The same villager also needs some fiber to help fix their house.",
+            "Objective": "Bring the mushroom villager 50 fiber.",
+            "Trigger": "GenericMushroom_1 771 50",
+            "ReactionText": "This is perfect! Thank you so much! Here's something for your help! Maybe you can go assist someone else!",
+            "Reward": "Geode",
+            "RewardType": "Object",
+            "RewardAmount": 3,
+            "NextQuests": ["second_rebuild1"]
+        },
+        {
+            "Name": "second_rebuild1",
+            "Type": "ItemDelivery",
+            "Title": "Second Villager Rebuild",
+            "Description": "Another mushroom villager needs some stone to help fix their house.",
+            "Objective": "Gather 30 stone for the villager.",
+            "Trigger": "GenericMushroom_2 390 30",
+            "ReactionText": "Great! Now I could really use some fiber",
+            "NextQuests": ["second_rebuild2"]
+        },
+        {
+            "Name": "second_rebuild2",
+            "Type": "ItemDelivery",
+            "Title": "Second Villager Rebuild",
+            "Description": "This other mushroom villager also needs fiber to help fix their house.",
+            "Objective": "Gather 100 fiber for the villager.",
+            "Trigger": "GenericMushroom_2 771 100",
+            "ReactionText": "Sweet! I just realized I need some coal as well...",
+            "NextQuests": ["second_rebuild3"]
+        },
+        {
+            "Name": "second_rebuild3",
+            "Type": "ItemDelivery",
+            "Title": "Second Villager Rebuild",
+            "Description": "They also need coal as well.",
+            "Objective": "Gather 25 coal for the villager.",
+            "Trigger": "GenericMushroom_2 382 25",
+            "ReactionText": "Awesome, that's everything I need! I found these laying around, and I have no use for them. Here you go! Also, I hear the chief could use some assistance.",
+            "Reward": "Survival Burger",
+            "RewardType": "Object",
+            "RewardAmount": 5,
+            "NextQuests": ["chief_rebuild1"]
+        },
+        {
+            "Name": "chief_rebuild1",
+            "Type": "ItemDelivery",
+            "Title": "Chief Rebuild",
+            "Description": "The Mushroom Chief needs iron bars to help rebuild his house.",
+            "Objective": "Gather 10 iron bars for the chief.",
+            "Trigger": "Chief 335 10",
+            "ReactionText": "Perfect! I now need some gold ore.",
+            "NextQuests": ["chief_rebuild2"]
+        },
+        {
+            "Name": "chief_rebuild2",
+            "Type": "ItemDelivery",
+            "Title": "Chief Rebuild",
+            "Description": "The Mushroom Chief needs gole ore as well.",
+            "Objective": "Gather 5 gold ore for the chief.",
+            "Trigger": "Chief 384 5",
+            "ReactionText": "This is just what I was looking for! Just need a couple battery packs and I should be all set.",
+            "NextQuests": ["chief_rebuild3"]
+        },
+        {
+            "Name": "chief_rebuild3",
+            "Type": "ItemDelivery",
+            "Title": "Chief Rebuild",
+            "Description": "The Chief just needs a couple battery packs and he'll be all set.",
+            "Objective": "Gather 2 battery packs for the chief.",
+            "Trigger": "Chief 787 2",
+            "Reward": "Super Meal",
+            "RewardType": "Object",
+            "ReactionText": "Perfect! You've been so helpful, I want to give you something special for all the hard work you've done."
+        }
+    ],
+    "Offers": [
+        {
+            "QuestName": "forest_discovery",
+            "OfferedBy": "Mail",
+            "OfferDetails": {
+                "Topic": "Recently Discovered Forest",
+                "Text": "Hiya @,^ I'm sure you noticed there was a massive rainstorm last night. There was a landslide east of the bath house and a new area opened up. I've been interested in investigating it for a long time. I was wondering if you could help me out and investigate for me? If you could also bring me back any soil or mushroom samples that would be really great!^ Thanks,^Maru"
+            },
+            "When": {
+                "Date": "3 summer Y1"
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "data/NPCDispositions",
+      "Entries": {
+        "GenericMushroom_4": "adult/neutral/neutral/neutral/male/non-datable/null/Other/summer 2//Custom_MushroomVillage 18 26 2/Villager"
+      }
+    }
+  ]
+}

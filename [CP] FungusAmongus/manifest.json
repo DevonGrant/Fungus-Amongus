@@ -1,0 +1,13 @@
+﻿{
+  "Name": "FungusAmongusCP",
+  "Author": "OkayShroomer",
+  "Version": "1.0.0",
+  "Description": "Creating a mushroom related mod for Stardew Valley",
+  "UniqueID": "OkayShroomer.FungusAmongusCP",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+   "UniqueID": "Pathoschild.ContentPatcher",
+   "MinimumVersion": "1.0.0"
+  }
+}

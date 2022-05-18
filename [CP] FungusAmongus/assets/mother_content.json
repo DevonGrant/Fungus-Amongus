@@ -1,0 +1,41 @@
+{
+  "Changes": [
+    {
+      "LogName": "Mother Manifestation",
+      "Action": "Include",
+      "FromFile": "assets/dispositions/mother_disposition.json"
+    },
+    {
+      "LogName": "Mother Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Mother": "This is really nice! Thank you!/684 74 340/How nice of you, thank you/312/Oh.. well it's the though that counts I guess./306 305 307 308/Oh..../281 404 420 422 430 432 205 208 257 280/This is nice/564 -79 -80 "
+      }
+    },
+    {
+      "LogName": "Mother Sprite",
+      "Action": "Load",
+      "Target": "Characters/Mother",
+      "FromFile": "assets/spritesheets/mother_spritesheet.png"
+    },
+    {
+      "LogName": "Mother Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Mother",
+      "FromFile": "assets/portraits/mother_portrait.png"
+    },
+    {
+      "LogName": "Mother Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Mother",
+      "FromFile": "assets/schedules/mother_schedule.json"
+    },
+    {
+      "LogName": "Mother Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Mother",
+      "FromFile": "assets/dialogue/mother_dialogue.json"
+    }
+  ]
+}

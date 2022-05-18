@@ -1,0 +1,41 @@
+{
+  "Changes": [
+    {
+      "LogName": "Generic Mushroom 1 Manifestation",
+      "Action": "Include",
+      "FromFile": "assets/dispositions/generic_1_disposition.json"
+    },
+    {
+      "LogName": "Generic Mushroom 1 Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "GenericMushroom_1": "Oh wow this is amazing! Thank you!/684 74/How nice of you, this is great./80 -20/Oh.. well it's the though that counts I guess./306 305 307 308/Um... .../281 404 420 422 430 432 205 208 257 280/Thanks/564 -79 -80"
+      }
+    },
+    {
+      "LogName": "Generic Mushroom 1 Sprite",
+      "Action": "Load",
+      "Target": "Characters/GenericMushroom_1",
+      "FromFile": "assets/spritesheets/generic_spritesheet.png"
+    },
+    {
+      "LogName": "Generic Mushroom 1 Portrait",
+      "Action": "Load",
+      "Target": "Portraits/GenericMushroom_1",
+      "FromFile": "assets/portraits/generic_portrait.png"
+    },
+    {
+      "LogName": "Generic Mushroom 1 Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/GenericMushroom_1",
+      "FromFile": "assets/schedules/generic_1_schedule.json"
+    },
+    {
+      "LogName": "Generic Mushroom 1 Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/GenericMushroom_1",
+      "FromFile": "assets/dialogue/generic_1_dialogue.json"
+    }
+  ]
+}

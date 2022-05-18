@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "data/NPCDispositions",
+      "Entries": {
+        "Child": "child/neutral/neutral/neutral/male/non-datable/null/Other/winter 3//Custom_MushroomVillage 16 17 2/Villager Child"
+      }
+    }
+  ]
+}

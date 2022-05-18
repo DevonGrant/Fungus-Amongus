@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="left-down" width="3" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
+  <tile id="153">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="537">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="562">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="588">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="3" height="9">
+  <data encoding="csv">
+589,538,538,
+589,538,538,
+589,538,538,
+589,538,538,
+589,538,538,
+646,563,563,
+154,154,154,
+154,154,154,
+154,154,154
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="3" height="9">
+  <data encoding="csv">
+0,0,442,
+0,0,467,
+0,0,492,
+0,0,517,
+0,0,542,
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Front" width="3" height="9">
+  <data encoding="csv">
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0,
+415,415,415
+</data>
+ </layer>
+</map>

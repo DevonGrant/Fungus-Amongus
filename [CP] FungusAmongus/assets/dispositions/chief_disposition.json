@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "data/NPCDispositions",
+      "Entries": {
+        "Chief": "adult/polite/neutral/neutral/male/non-datable/null/Other/spring 19//Custom_MushroomVillage 13 16 2/Chief"
+      }
+    }
+  ]
+}

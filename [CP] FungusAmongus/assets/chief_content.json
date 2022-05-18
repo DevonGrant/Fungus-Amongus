@@ -1,0 +1,41 @@
+{
+  "Changes": [
+    {
+      "LogName": "Chief Manifestation",
+      "Action": "Include",
+      "FromFile": "assets/dispositions/chief_disposition.json"
+    },
+    {
+      "LogName": "Chief Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Chief": "Thank you!/684 74/This is great./80/Oh.. well it's the though that counts I guess./306 305 307 308/... Oh.../281 404 420 422 430 432 205 208 257 280/Thanks/564 -79 -80"
+      }
+    },
+    {
+      "LogName": "Chief Sprite",
+      "Action": "Load",
+      "Target": "Characters/Chief",
+      "FromFile": "assets/spritesheets/chief_spritesheet.png"
+    },
+    {
+      "LogName": "Chief Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Chief",
+      "FromFile": "assets/portraits/chief_portrait.png"
+    },
+    {
+      "LogName": "Chief Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Chief",
+      "FromFile": "assets/schedules/chief_schedule.json"
+    },
+    {
+      "LogName": "Chief Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Chief",
+      "FromFile": "assets/dialogue/chief_dialogue.json"
+    }
+  ]
+}
